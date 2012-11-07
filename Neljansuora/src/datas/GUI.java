@@ -52,7 +52,7 @@ public class GUI extends JFrame {
             images.put(i, b);
             panel.add(b);
         }
-        info = new JLabel("Ristin Vuoro");
+        info = new JLabel("Nollan Vuoro");
         frame = new JPanel(new BorderLayout());
         frame.add(panel, BorderLayout.NORTH);
         frame.add(info, BorderLayout.SOUTH);
